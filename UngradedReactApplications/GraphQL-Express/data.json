@@ -1,0 +1,117 @@
+{
+  "users": [
+    {
+      "name": "John Doe",
+      "email": "john@example.com",
+      "password": "john123",
+      "posts": [
+        {
+          "title": "GraphQL Post",
+          "content": "Learning GraphQL is fun!",
+          "comments": [
+            {
+              "user": {
+                "name": "Jane Doe",
+                "email": "jane@example.com",
+                "password": "jane123"
+              },
+              "content": "Absolutely agree!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jane Doe",
+      "email": "jane@example.com",
+      "password": "jane123",
+      "posts": [
+        {
+          "title": "Express and GraphQL",
+          "content": "Integrating GraphQL with Express.",
+          "createdAt": "2024-02-01",
+          "comments": [
+            {
+              "user": {
+                "name": "John Doe",
+                "email": "john@example.com",
+                "password": "john123"
+              },
+              "content": "Very informative!",
+              "createdAt": "2024-02-02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "password": "alice123",
+      "posts": [
+        {
+          "title": "GraphQL Mutations",
+          "content": "Understanding mutations in GraphQL.",
+          "createdAt": "2024-03-01",
+          "comments": [
+            {
+              "user": {
+                "name": "John Doe",
+                "email": "john@example.com",
+                "password": "john123"
+              },
+              "content": "This clears up a lot!",
+              "createdAt": "2024-03-02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bob Johnson",
+      "email": "bob@example.com",
+      "password": "bob123",
+      "posts": [
+        {
+          "title": "GraphQL Queries",
+          "content": "How to write efficient queries in GraphQL.",
+          "createdAt": "2024-04-01",
+          "comments": [
+            {
+              "user": {
+                "name": "Alice Smith",
+                "email": "alice@example.com",
+                "password": "alice123"
+              },
+              "content": "Thanks for the tips!",
+              "createdAt": "2024-04-02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Charlie Brown",
+      "email": "charlie@example.com",
+      "password": "charlie123",
+      "posts": [
+        {
+          "title": "GraphQL Subscriptions",
+          "content": "Subscribing to real-time data with GraphQL.",
+          "createdAt": "2024-05-01",
+          "comments": [
+            {
+              "user": {
+                "name": "Bob Johnson",
+                "email": "bob@example.com",
+                "password": "bob123"
+              },
+              "content": "Really useful!",
+              "createdAt": "2024-05-02"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.mainContent {
+    align-self: flex-start;
+    text-align: left;
+    width: 100%;
+    padding-left: 20px; /* Padding to prevent text from sticking to the edge */
+}
+
+.profilePic {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}

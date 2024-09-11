@@ -1,0 +1,14 @@
+.newsListWrapper {
+    margin: 2rem auto 0;
+    background-color: #fcc2d7;
+    max-width: 60vw;
+    list-style: none;
+    padding: 2rem;
+    box-sizing: border-box;
+   }
+   @media only screen and (max-width: 1200px) {
+    .newsListWrapper {
+    max-width: 90vw;
+    }
+   }
+   

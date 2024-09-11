@@ -1,0 +1,41 @@
+∗ {
+  margin: 0;
+  padding: 0;
+}
+
+.appWrapper {
+  padding: 3rem 0;
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #fff0f6;
+  text-align: center;
+}
+
+.actions {
+  max-width: 60vw;
+  margin: 2rem auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions button {
+  text-decoration: none;
+  background-color: #a61e4d;
+  color: white;
+  padding: 0.5rem 1rem;
+  width: fit-content;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.actions button:disabled {
+  opacity: 50%;
+  cursor: default;
+}
+
+@media only screen and (max-width: 1200px) {
+  .actions {
+      max-width: 90vw;
+  }
+}

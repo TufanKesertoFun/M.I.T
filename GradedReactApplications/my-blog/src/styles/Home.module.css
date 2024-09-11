@@ -1,0 +1,20 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.profilePic {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.mainContent {
+  align-self: flex-start;
+  text-align: left;
+  width: 100%;
+  padding-left: 20px; 
+}

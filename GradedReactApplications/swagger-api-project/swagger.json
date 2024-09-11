@@ -1,0 +1,51 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "description": "Sample API with GET and POST methods",
+      "version": "1.0.0",
+      "title": "Sample API"
+    },
+    "paths": {
+      "/getEndpoint": {
+        "get": {
+          "summary": "Retrieve data",
+          "responses": {
+            "200": {
+              "description": "Successful operation"
+            }
+          }
+        }
+      },
+      "/postEndpoint": {
+        "post": {
+          "summary": "Create new data",
+          "responses": {
+            "201": {
+              "description": "Data created successfully"
+            }
+          }
+        }
+      },
+      "/putEndpoint": {
+      "put": {
+        "summary": "Update existing data",
+        "responses": {
+          "200": {
+            "description": "Data updated successfully"
+          }
+        }
+      }
+    },
+    "/deleteEndpoint": {
+      "delete": {
+        "summary": "Delete existing data",
+        "responses": {
+          "204": {
+            "description": "Data deleted successfully"
+          }
+        }
+      }
+    }
+    }
+  }
+  
